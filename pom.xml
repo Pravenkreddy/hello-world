@@ -14,6 +14,8 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <modules>
@@ -32,10 +34,10 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+        <source>${maven.compiler.source}</source>
+        <target>${maven.compiler.target}</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
                     <plugin>
@@ -220,8 +222,5 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
 
-  <prerequisites>
-    <maven>3.0.3</maven>
-  </prerequisites>
 
 </project>
