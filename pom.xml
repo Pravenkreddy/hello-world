@@ -30,15 +30,15 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
-
- <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-            <source>${maven.compiler.source}</source>
-            <target>${maven.compiler.target}</target>
-        </configuration>
-    </plugin>
-                    <plugin>
+<build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
                    <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-war-plugin</artifactId>
                    <version>3.3.2</version>
