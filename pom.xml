@@ -46,6 +46,20 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
+           <plugin>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>jakartaee-migration-maven-plugin</artifactId>
+            <version>1.0.1</version>
+            <executions>
+                <execution>
+                    <id>migrate-to-jakarta</id>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>migrate</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>    
         </plugins>
     </build>
 </project>
