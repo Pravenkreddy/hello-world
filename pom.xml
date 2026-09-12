@@ -46,21 +46,6 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
-<plugin>
-            <groupId>org.eclipse.transformer</groupId>
-            <artifactId>transformer-maven-plugin</artifactId>
-            <version>0.5.0</version>
-            <executions>
-                <execution>
-                    <id>migrate-to-jakarta</id>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>transform</goal>
-                    </goals>
-                    <configuration>
-                        <rules>
-                            <jakartaDefaults>true</jakartaDefaults>
-                        </rules>
                     </configuration>
                 </execution>
             </executions>
