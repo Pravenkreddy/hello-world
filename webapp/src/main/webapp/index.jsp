@@ -55,7 +55,7 @@
 <form action="submit_feedback.jsp" method="POST">
     <div class="container">
         <h1>DevOps Engineering Course Feedback</h1>
-        <p>Please take a min to fill out this evaluation form.</p>
+        <p>Please take a min to fill out this at evaluation form.</p>
         <hr>
 
         <label for="studentName">Student Name</label>
