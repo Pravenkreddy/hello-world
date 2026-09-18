@@ -54,8 +54,8 @@
 
 <form action="submit_feedback.jsp" method="POST">
     <div class="container">
-        <h1>DevOps Engineer Course Feedback</h1>
-        <p>Please take a min to fill out this at evaluation form.</p>
+        <h1>DevOps Engineering Course Feedback</h1>
+        <p>Please take a moment to fill out this at evaluation form.</p>
         <hr>
 
         <label for="studentName">Student Name</label>
@@ -68,7 +68,7 @@
         <select name="courseRating" id="courseRating" required>
             <option value="">Select a rating</option>
             <option value="excellent">Excellent</option>
-            <option value="nice">Nice</option>
+            <option value="fine">Fine</option>
             <option value="average">Average</option>
             <option value="poor">Poor</option>
         </select>
