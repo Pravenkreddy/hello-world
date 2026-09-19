@@ -67,7 +67,7 @@
         <label for="courseRating">How would you rate the course?</label>
         <select name="courseRating" id="courseRating" required>
             <option value="">Select a rating</option>
-            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
             <option value="fine">Fine</option>
             <option value="average">Average</option>
             <option value="poor">Poor</option>
